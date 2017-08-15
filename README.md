@@ -1,6 +1,7 @@
 # Network-Event-Listener-Framework
 
 # Introduction : 
+
 The Webhooks Listener-Plugin library consists of two component libraries written in GoLang: WebHook Listener Libraries and Plugin (Event Consumer) Libraries. 
 
 
@@ -17,6 +18,8 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 1) The plugin component will accept the events passed to it from the listner.
 
 2) The plugin component will interpret those events and then drive policy management on the third party networking product by making relevant calls to their respective end-point.
+
+NOTE : Currently the sample code in the present form would allow one listener program cater to one plugin program . However , developers are free to modify and implement to have one listener program cater to multiple plugin programs. 
 
 # Contents :
 
