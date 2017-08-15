@@ -1,0 +1,16 @@
+{
+  "pafw_instance_config" : {
+    "ip": "<ipv4_address>",
+    "port": "443",
+    "username": "<username>",
+    "password": "<Base64_encoded_password>",
+    "dynamic_address_group": "PaloAltoFirewallVMs",
+    "security_policy_rule": "PaloAltoFirewallSecurityRule"
+  },
+  "nutanix_cluster_config": {
+    "ip": "<ipv4_address>",
+    "port": "9440",
+    "username": "<username>",
+    "password": "<Base64_encoded_password>"
+  }
+}
