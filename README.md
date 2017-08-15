@@ -24,9 +24,7 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 
 2) WebhooksListener: Nutanix WebHooks Listener Library Files 
 
-3) pafweventconsumer : Plugin Library Files (Sample implementation of Palo Alto VMSeries FW plugin)
-
-4) panfweventservice : Sample code for exposing the plugin as a service
+3) pafweventconsumer : Plugin Library Files (Sample implementation of Palo Alto VMSeries FW plugin) and Plugin Service
 
 
 # Assumptions :
