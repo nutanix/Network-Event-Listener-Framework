@@ -4,7 +4,7 @@
 The Webhooks Listener-Plugin library consists of two component libraries written in GoLang: WebHook Listener Libraries and Plugin (Event Consumer) Libraries. 
 
 
-# WebHook Listener Libraries
+# WebHook Listener Libraries :
 
 1) Using the webhooks listener libraries customers/partners/network product companies can create a listener program that can subscribe to relevant networking events occuring on AHV through Nutanix's AOS WebHook APIs . 
 
@@ -12,13 +12,13 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 
 3) The networking events as and when they occur  will be pushed to the listener through a HTTP POST call of the url.
 
-# Plugin Libraries
+# Plugin Libraries :
 
 1) The plugin component will accept the events passed to it from the listner.
 
 2) The plugin component will interpret those events and then drive policy management on the third party networking product by making relevant calls to their respective end-point.
 
-# Contents
+# Contents :
 
 1) Nutanix WebHooks Listener and Plugin Framework Tutorial.
 
@@ -29,7 +29,7 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 4) panfweventservice : Sample code for exposing the plugin as a service
 
 
-# Assumptions
+# Assumptions :
 
 1) Developers should have exposure to GoLang programming language.
 
@@ -40,7 +40,7 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 4) Developers are free to download , modify or enhance the libraries for their own use case and are expected to maintain them.
 
 
-# Dependency
+# Dependency :
 
 In order to leverage Nutanix AOS WebHooks API , one should be on AOS version >= 5.1.1
 
