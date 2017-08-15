@@ -1,0 +1,21 @@
+{
+  "f5_instance_config" : {
+    "ip": "<ipv4_address>",
+    "port": "443",
+    "username": "<username>",
+    "password": "<Base64_encoded_password>",
+    "serviceport": "8080",
+    "pools": [
+      {
+        "pool_name": "test-pool",
+        "pool_members": ["10.5.4.2:8080"]
+      }
+    ]
+  },
+  "nutanix_cluster_config": {
+    "ip": "<ipv4_address>",
+    "port": "9440",
+    "username": "<username>",
+    "password": "<Base64_encoded_password>"
+  }
+}
