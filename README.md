@@ -8,7 +8,7 @@ The Webhooks Listener-Plugin library consists of two component libraries written
 
 1) Using the webhooks listener libraries customers/partners/network product companies can create a listener program that can subscribe to relevant networking events occuring on AHV through Nutanix's AOS WebHook APIs . 
 
-2)The listener program will register a HTTP url with the AOS webhooks API.
+2) The listener program will register a HTTP url with the AOS webhooks API.
 
 3) The networking events as and when they occur  will be pushed to the listener through a HTTP POST call of the url.
 
